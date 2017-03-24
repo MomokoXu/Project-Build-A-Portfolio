@@ -1,5 +1,5 @@
 * {
-   border: 1px solid red !important;
+   border: 1px solid lightblue !important;
 }
 * {
     -webkit-box-sizing: border-box;
@@ -11,6 +11,9 @@
 	p {
 		background-color: lightblue;
 	}
+}
+* {
+	font-family: 'Gloria Hallelujah', cursive;
 }
 .title {
 	font-family: 'Griffy', cursive;
