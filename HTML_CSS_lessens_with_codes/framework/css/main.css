@@ -12,6 +12,10 @@
 		background-color: lightblue;
 	}
 }
+.title {
+	font-family: 'Griffy', cursive;
+	text-align: center;
+}
 .row {
 	width: 100%;
 	display: flex;
