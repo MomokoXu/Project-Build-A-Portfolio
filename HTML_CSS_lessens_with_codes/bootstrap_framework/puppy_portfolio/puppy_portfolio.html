@@ -7,6 +7,9 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Chewy|Handlee" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -21,7 +24,7 @@
       </div>
       <div class="row">
         <div class="col-md-12">
-          <img src="https://placekitten.com/g/1140/350" class="img-responsive">
+          <img src="https://placekitten.com/g/1140/350" class="img-responsive" data-toggle="modal" data-target="#projectintro">
         </div>
       </div>
       <div class="row">
@@ -31,28 +34,113 @@
       </div>
       <div class="row">
         <div class="col-md-6">
-          <img src="https://placekitten.com/g/555/300" class="img-responsive">
-          <h4>Kitten</h4>
+          <img src="https://placekitten.com/g/555/300" class="img-responsive" data-toggle="modal" data-target="#kitten">
+          <h4>Kittens</h4>
           <p><a href="http://github.com/">Link to project</a></p>
         </div>
         <div class="col-md-6">
-          <img src="https://placekitten.com/g/555/300" class="img-responsive">
-          <h4>Doggy</h4>
+          <img src="https://placekitten.com/g/555/300" class="img-responsive" data-toggle="modal" data-target="#dog">
+          <h4>Little Dogs</h4>
           <p><a href="http://github.com/">Link to project</a></p>
         </div>
       </div>
       <div class="row">
         <div class="col-md-6">
-          <img src="https://placekitten.com/g/555/300" class="img-responsive">
+          <img src="https://placekitten.com/g/555/300" class="img-responsive" data-toggle="modal" data-target="#pandas">
           <h4>Pandas</h4>
           <p><a href="http://github.com/">Link to project</a></p>
         </div>
         <div class="col-md-6">
-          <img src="https://placekitten.com/g/555/300" class="img-responsive">
-          <h4>Baby Giraffe</h4>
+          <img src="https://placekitten.com/g/555/300" class="img-responsive" data-toggle="modal" data-target="#giraffe">
+          <h4>Baby Giraffes</h4>
           <p><a href="http://github.com/">Link to project</a></p>
         </div>
       </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="projectintro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">About thie project</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="https://placekitten.com/g/1140/350">
+                    This is my first project in this class. I learned a lot about HTML and CSS. Since I would like to make my first project to be a little bit interesting, I decide to build a puppy portflio, which has a gallery for four type of cute animals including kittens, little dogs, pandas, and baby giraffes. Enjoy this little project!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="kitten" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Cute Kittens</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="https://placekitten.com/g/555/300">
+                    This part is about cute kittens. A kitten (also known as a kitty or kitty cat) is a juvenile cat. After being born, kittens are totally dependent on their mother for survival and they do not normally open their eyes until after seven to ten days. After about two weeks, kittens quickly develop and begin to explore the world outside the nest. After a further three to four weeks, they begin to eat solid food and grow adult teeth. Domestic kittens are highly social animals and enjoy human companionship.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="dog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Cute Doggies</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="https://placekitten.com/g/555/300">
+                   This part is about cute little dogs.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="pandas" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Cute pandas</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="https://placekitten.com/g/555/300">
+                    This part is about cute little pandas.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="giraffe" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Cute Baby Giraffe</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="https://placekitten.com/g/555/300">
+                    This part is about cute baby giraffe.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
   </body>
 </html>
