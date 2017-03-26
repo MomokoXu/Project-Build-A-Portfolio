@@ -6,7 +6,7 @@ This mini project aims to build a portfolio of some little animals including kit
 ## How to use it
 * Make sure download all files in this project
 * In Terminal:
-    1. Make sure you switch to the directory for this project
+    1. Make sure you switch to the directory `Project_Build_A_Portfolio/HTML_CSS_lessons_with_code/bootstrap_framework/liitle_animal_portfolio/`for this project
     2. open `little_animal_portfolio.html` in your browser
 
 ## Author
