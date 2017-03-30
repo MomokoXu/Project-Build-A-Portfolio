@@ -75,12 +75,12 @@
     padding-right: 1em;
   }
   .weather {
-    width: 50%;
-    order: 2;
+    width: 40%;
+    order: 3;
   }
   .scores {
-    width: 70%;
-    order: 3;
+    width: 60%;
+    order: 2;
   }
 
 @media screen and (min-width: 900px) {
