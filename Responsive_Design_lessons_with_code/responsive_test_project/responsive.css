@@ -85,7 +85,7 @@
 
 @media screen and (min-width: 900px) {
   main, .header__inner, .nav, .content {
-    width: 850px;
+    width: 900px;
     margin-left: auto;
     margin-right: auto;
   }
