@@ -7,6 +7,7 @@
     <title>Brighton Times</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
   </head>
   <body>
 
@@ -16,6 +17,9 @@
         <h1 class="header__title">
           The Brighton Times
         </h1>
+        <a href="#" id="menu" class="header__menu">
+          <img src="images/menu.png" alt="">
+        </a>
       </div>
     </header>
 
@@ -178,5 +182,22 @@
         </ul>
       </footer>
     </main>
+    <script>
+      /*
+       * Open the drawer when the menu ison is clicked.
+       */
+      var menu = document.querySelector('#menu');
+      var main = document.querySelector('main');
+      var drawer = document.querySelector('.nav');
+
+      menu.addEventListener('click', function(e) {
+        drawer.classList.toggle('open');
+        e.stopPropagation();
+      });
+      main.addEventListener('click', function() {
+        drawer.classList.remove('open');
+      });
+
+    </script>
   </body>
 </html>
