@@ -7,20 +7,16 @@
 */
 
 module.exports = function(grunt) {
-
+  pkg: grunt.file.readJSON('package.json'),
   grunt.initConfig({
     responsive_images: {
       dev: {
         options: {
           engine: 'im',
           sizes: [{
-            /*
-            Change these:
-            
-            width: ,
-            suffix: ,
-            quality:
-            */
+            width: 1600,
+            suffix: '_large_2x',
+            quality: 30
           }]
         },
 
@@ -64,7 +60,7 @@ module.exports = function(grunt) {
       },
     },
   });
-  
+
   grunt.loadNpmTasks('grunt-responsive-images');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
