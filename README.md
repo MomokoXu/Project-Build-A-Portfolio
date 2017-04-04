@@ -1,14 +1,9 @@
 # Project to build a portfolio
-![Image of webpage](https://github.com/MomokoXu/Project-Build-A-Portfolio/blob/master/web_sample.png)
-## Introduction
-This mini project aims to build a portfolio of some little animals including kittens, puppies, pandas and baby giraffes. It allows visitors to click on different animal images to check the short introduction about them. Also, there are links to pictures for the corresponding little animal. Enjoy this project and the little cute animals!
-
-## How to use it
-* Make sure download all files in this project
-* In Terminal:
-    1. Make sure you switch to the directory `Project_Build_A_Portfolio/HTML_CSS_lessons_with_code/bootstrap_framework/liitle_animal_portfolio/`for this project
-    2. open `little_animal_portfolio.html` in your browser
-
+1. The main project has not be finished yet.
+1. There are two side projects for HTML_CSS lessons and Rresponsive Design lessons. Please go to the following folders for more information.
+    * The first one is in HTML_CSS_lessons_with_code
+    * The second one is in Reponsive_Design_lessons_with_code
+    *
 ## Author
 [Yingtao Xu](https://github.com/MomokoXu)
 
