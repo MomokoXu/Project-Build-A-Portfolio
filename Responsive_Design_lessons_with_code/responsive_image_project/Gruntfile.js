@@ -14,9 +14,9 @@ module.exports = function(grunt) {
         options: {
           engine: 'im',
           sizes: [{
-            width: 1600,
-            suffix: '_large_2x',
-            quality: 30
+            width: 500,
+            suffix: '_small',
+            quality: 60
           }]
         },
 
@@ -34,11 +34,13 @@ module.exports = function(grunt) {
     },
 
     /* Clear out the images directory if it exists */
+    /*
     clean: {
       dev: {
         src: ['images'],
       },
     },
+    */
 
     /* Generate the images directory if it is missing */
     mkdir: {
@@ -65,6 +67,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-mkdir');
-  grunt.registerTask('default', ['clean', 'mkdir', 'copy', 'responsive_images']);
+  grunt.registerTask('default', ['mkdir', 'copy', 'responsive_images']);
 
 };
