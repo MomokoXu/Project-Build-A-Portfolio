@@ -1,5 +1,5 @@
 # Project: My Responsive Blog #
-
+![Image of webpage](https://github.com/MomokoXu/Project-Build-A-Portfolio/blob/master/Responsive_Design_lessons_with_code/responsive_image_project/web_sample.png)
 ## Problems with the Original Page ##
 
 * The text is readable, but the images overflow the viewport.
