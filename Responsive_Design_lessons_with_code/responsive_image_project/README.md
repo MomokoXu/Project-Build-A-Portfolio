@@ -28,7 +28,7 @@
 ## How to use it
 * Make sure download all files in this project
 * In Terminal:
-	1. Make sure you switch to the directory `Project_Build_A_Portfolio/Responsive_Design_lessons_with_code/responsive_image_project`for this project
+	1. Make sure you switch to the directory `Project_Build_A_Portfolio/Responsive_Design_lessons_with_code/responsive_image_project` for this project
 	2. Open index.html in your browser
 
 ## Author
