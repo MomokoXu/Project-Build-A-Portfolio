@@ -12,6 +12,24 @@ I've left some boilerplate below for you.
 
 */
 
+[class*="zocial-"]:before {
+	display: inline-block;
+	font-family: 'zocial', sans-serif;
+	text-shadow: 3px 3px 3px #aaa;
+	width: 2em;
+	color: blue;
+	margin: 1em 0 1em 1em;
+	text-align: center;
+}
+
+a {
+	font-size: 2vw;
+	margin: 1vw 1vh;
+	text-align: right;
+	color: grey;
+	width: 25%;
+}
+
 body {
 	display: flex;
 	flex-wrap: wrap;
@@ -49,21 +67,7 @@ figure {
 	text-align: center;
 }
 
-a {
-	font-size: 2vw;
-	margin: 1vw 1vh;
-	text-align: right;
-	color: grey;
-	width: 25%;
-}
 
-[class*="zocial-"]:before {
-	display: inline-block;
-	font-family: 'zocial', sans-serif;
-	text-shadow: 3px 3px 3px #aaa;
-	width: 2em;
-	color: blue;
-}
 
 footer {
     display: block;
