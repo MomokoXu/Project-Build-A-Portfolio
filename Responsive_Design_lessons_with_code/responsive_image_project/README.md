@@ -1,4 +1,4 @@
-#Project: My Responsive Blog#
+# Project: My Responsive Blog #
 
 ## Problems with the Original Page ##
 
