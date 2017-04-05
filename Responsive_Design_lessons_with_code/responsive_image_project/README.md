@@ -9,9 +9,8 @@
 * `alt` attributes make your sites accessible to the vision impaired and anyone surfing the web on a screen reader. Make sure to include them!
 * The blog is visually simple. What can you do to make it look better?
 * Getting text size right is hard. Is the body text too big or small on some devices and window sizes? Are the headings the right size relative to the body text?
-* In GPRS emulation mode, this page still takes nearly a minute to load. Images load randomly – and the image captions load first and don't make sense without the images. How might image loading be accomplished more efficiently? Take a look at the [Resource Priorities](https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/ResourcePriorities/Overview.html#attr-lazyload) editor's draft. What about JavaScript alternatives, such as the jQuery [Lazy Load Plugin](http://www.appelsiini.net/projects/lazyload)? Any potential problems?
+* In GPRS emulation mode, this page still takes nearly a minute to load. Images load randomly – and the image captions load first and don't make sense without the images. How might image loading be accomplished more efficiently?
 * The markup is verbose! We've gone from around 7,000 characters to over 14,000. That's twice the download size – just to start displaying text. How could we improve this?
-* Check the page with [Page Speed Insights](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fudacity.github.io%2Fresponsive-images%2Fproject%2Ffinal%2F&tab=mobile): the images are still unoptimized.
 
 
 ## The Goals and Features: ##
