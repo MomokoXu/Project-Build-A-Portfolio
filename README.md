@@ -1,6 +1,6 @@
 # Project to build a portfolio
-1. The main project has not be finished yet.
-1. There are two side projects for HTML_CSS lessons and Rresponsive Design lessons. Please go to the following folders for more information.
+1. Please switch to `/project` to see more details about the main project.
+1. There are two other side projects for HTML_CSS lessons and Rresponsive Design lessons. Please go to the following folders for more information.
     * The first one is in HTML_CSS_lessons_with_code
     * The second one is in Reponsive_Design_lessons_with_code
 ## Author
