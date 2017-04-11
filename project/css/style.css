@@ -9,26 +9,29 @@
 	background-color: beige;
 }
 
-svg#logo {
-  height: 10vw;
-  width: 10vw;
-  margin: 2em auto auto auto;
-}
-
 [class*="zocial-"]:before {
 	display: inline-block;
 	font-family: 'zocial', sans-serif;
 	text-shadow: 3px 3px 3px #aaa;
-	width: 1vw;
+	width: 1.5vw;
 	color: #223186;
 	margin: 1em 1em 1em 1em;
 	text-align: center;
 }
 
+header {
+	margin: 5vh 5vw auto auto;
+}
+
+article {
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+}
+
 h1 {
 	font-family: 'Chewy', cursive;
 	color: #f1bbcd;
-	font-size: 6vw;
+	font-size: 4vw;
 }
 
 h2 {
@@ -47,9 +50,16 @@ h3 {
 h4 {
 	font-family: 'Handlee', cursive;
 	color: #f1bbcd;
-	font-size: 4vw;
+	font-size: 2vw;
 	text-decoration: underline;
 	text-decoration-color: lightgrey;
+}
+
+figcaption {
+	text-align: center;
+	color: grey;
+	font-size: 10wv;
+	font-style: bold;
 }
 
 footer {
@@ -58,7 +68,7 @@ footer {
 	margin-bottom: 0.5em;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: grey;
+	background-color: lightgrey;
 	opacity: 0.6;
 	width: 100%;
 	text-align: center
@@ -68,5 +78,14 @@ footer {
 .modal-body {
 	font-family: 'Indie Flower', cursive;
 	color: lightblue;
-	font-size: 20px;
+	font-size: 2vw;
+}
+
+.gallery {
+	margin: 3vh 3vh auto auto;
+}
+
+.project {
+	margin-top: 3vh;
+	margin-bottom: 5vh;
 }
