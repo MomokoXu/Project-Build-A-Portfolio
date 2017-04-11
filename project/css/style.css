@@ -29,61 +29,50 @@ article {
 }
 
 h1 {
-	font-family: 'Chewy', cursive;
+	font-family: "Chewy", cursive;
 	color: #f1bbcd;
 	font-size: 4vw;
 }
 
 h2 {
-	font-family: 'Chewy', cursive;
-	color: #f1bbcd;
+	font-family: "Chewy", cursive;
+	color: lightblue;
 	font-size: 4vw;
 }
 
 h3 {
-	font-family: 'Chewy', cursive;
+	font-family: "Chewy", cursive;
 	color: grey;
 	font-size: 4vw;
 	font-weight: bold;
+	margin: auto auto 3vw auto;
 }
 
 h4 {
-	font-family: 'Handlee', cursive;
+	font-family: "Handlee", cursive;
 	color: #f1bbcd;
 	font-size: 2vw;
 	text-decoration: underline;
 	text-decoration-color: lightgrey;
 }
 
-figcaption {
-	text-align: center;
-	color: grey;
-	font-size: 10wv;
-	font-style: bold;
-}
-
 footer {
 	display: block;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
-	margin-left: auto;
-	margin-right: auto;
 	background-color: lightgrey;
 	opacity: 0.6;
 	width: 100%;
-	text-align: center
-	text-color: #223186;
+	text-align: center;
+	color: lightblue;
 }
 
 .modal-body {
-	font-family: 'Indie Flower', cursive;
+	font-family: "Indie Flower", cursive;
 	color: lightblue;
 	font-size: 2vw;
 }
 
-.gallery {
-	margin: 3vh 3vh auto auto;
-}
 
 .project {
 	margin-top: 3vh;
