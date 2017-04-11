@@ -8,6 +8,7 @@ This project aims to use different languages including HTML/CSS and Javascript, 
 * Diologs of project details: show up by clicking on the project intro picture.
 * Links: lead to the source code for different projects.
 * Social icons: allows to share this project by clicking on the corresponding icons.
+* Accessibility: images information can be accessed.
 * All images are loaded based on different devices to speed up and save bits.
 
 ## How to use it
