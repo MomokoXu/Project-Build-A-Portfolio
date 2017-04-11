@@ -4,6 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Chewy|Handlee" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
@@ -18,73 +19,112 @@
     <div class="container">
       <!-- Project Title with a logo -->
       <div class="row">
-        <div class="col-md-12 text-left">
-          <a href="https://github.com/MomokoXu">
-            <svg id="logo" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200">
-              <circle class="shape" r="65" cx="100" cy="100" fill="none" stroke="#f1bbcd" stroke-width="40" stroke-dasharray="4">
-                <animate attributeName="stroke-opacity" values="1;0.5;1" dur="3s" repeatCount="indefinite" />
-                <animate attributeName="stroke-width" values="50;30;50" dur="3s" repeatCount="indefinite" />
-                <animateTransform attributeName="transform" dur="3s" type="rotate" from="0 100 100" to="360 100 100" repeatCount="indefinite" />
-              </circle>
-              <circle class="shape" r="65" cx="100" cy="100" fill="#006791">
-                <animate attributeName="fill" values="lightblue;#f1bbcd;lightblue" dur="3s" repeatCount="indefinite" />
-              </circle>
-            </svg>
-          </a>
-        </div>
-        <div class="col-md-12 text-left">
-          <h1 class="text-uppercase">Momoko's Portfolio </h1>
-          <h2>&#9728 Momoko's Web Project &#9728</h2>
-        </div>
+        <header>
+          <div class="col-md-12 text-left">
+            <a href="http://www.momokoxu.com/">
+              <svg id="logo" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200">
+                <circle class="shape" r="65" cx="100" cy="100" fill="none" stroke="#f1bbcd" stroke-width="40" stroke-dasharray="4">
+                  <animate attributeName="stroke-opacity" values="1;0.5;1" dur="3s" repeatCount="indefinite" />
+                  <animate attributeName="stroke-width" values="50;30;50" dur="3s" repeatCount="indefinite" />
+                  <animateTransform attributeName="transform" dur="3s" type="rotate" from="0 100 100" to="360 100 100" repeatCount="indefinite" />
+                </circle>
+                <circle class="shape" r="65" cx="100" cy="100" fill="#006791">
+                  <animate attributeName="fill" values="lightblue;#f1bbcd;lightblue" dur="3s" repeatCount="indefinite" />
+                </circle>
+              </svg>
+            </a>
+          </div>
+          <div class="col-md-12 text-left">
+            <h1 class="text-uppercase">&#9728 Momoko's Web Project &#9728</h1>
+          </div>
+      </header>
       </div>
 
       <!-- Project Introduction -->
       <div class="row">
         <div class="col-md-12">
-          <img src="./pictures/river.jpg" class="img-responsive" data-toggle="modal" data-target="#projectintro" alt="Introduction for this project with a picture of ">
+          <picture>
+            <source media="(min-width: 1000px)" srcset="images/river-1600_large_2x.jpg, images/river-800_large_1x.jpg" />
+            <source media="(min-width: 500px)" srcset="images/river-1000_medium.jpg" />
+            <img src="images/river-500_small.jpg" class="img-responsive" alt="Introduction for this project with a picture of river in Frement CA">
+            <figcaption>River near Union City in Spring</figcaption>
+          </picture>
+          <article>
+            <h2>Welcome to Momoko's Portfolio</h2>
+            <p>I finished this project by the river in Union City so I put the photo of the river as my introduction picture. It shows the beautiful veiw in Spring when everything is about to revive.&#9786</p>
+            <p>This portfolio is one of my projects for the Udacity <a href="https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004">Full Stack Nano Degree (FSND)</a>. Currently, there are only four projects linked in this portfolio but I will add more projects as long as I finish one afterwards. Also it will be merged into my personal website as my personal portfolio to show afterwards.&#9786
+            </p>
+            <p>The first project is a book recommender system called BYou(Book For You) which is a web application to recommend books for different users. The second one is called Emate, which is another web application allowing users to find friends based on locations and similar interests. The third one it the first project I have done for FSND. The last one is my personal website. Please click different sections below to see more information about different projects.</p>
+            <p>Hope you enjoy it!&#9786</p>
+          </article>
         </div>
       </div>
 
 
       <!-- Gallery Part -->
-      <div class="row">
-        <div class="col-md-12">
-          <h3>Gallery</h3>
+      <div class="gallery">
+        <div class="row">
+          <div class="col-md-12">
+            <h3>Gallery</h3>
+          </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col-md-6">
-          <img src="./pictures/kitten.jpeg" class="img-responsive" data-toggle="modal" data-target="#kitten">
-          <a href="https://www.google.com/search?q=kittens&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjQt-3jo_XSAhUW5GMKHcfMBy8Q_AUIBigB&biw=1490&bih=847"><h4>Kittens</h4>
-          </a>
-        </div>
-        <div class="col-md-6">
-          <img src="./pictures/puppy.jpg" class="img-responsive" data-toggle="modal" data-target="#dog">
-          <a href="https://www.google.com/search?q=puppies&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjcn4mJpPXSAhVRxWMKHQbcA7YQ_AUIBigB&biw=1490&bih=847"><h4>Puppies</h4>
-          </a>
-        </div>
-      </div>
+        <div class="row">
+          <div class="col-md-6 project">
+            <picture>
+              <source media="(min-width: 1000px)" srcset="images/byou-1600_large_2x.png, images/byou-800_large_1x.png" />
+              <source media="(min-width: 500px)" srcset="images/byou-1000_medium.png" />
+              <img src="images/byou-500_small.png" class="img-responsive" data-toggle="modal" data-target="#byou" alt="Introduction of book for you recommender web app">
+              <a href="https://github.com/MomokoXu/Book-For-You-Recommender-System">
+                <h4>BYou: Book Recommender</h4>
+              </a>
+            </picture>
+          </div>
 
-      <div class="row">
-        <div class="col-md-6">
-          <img src="./pictures/panda.jpg" class="img-responsive" data-toggle="modal" data-target="#pandas">
-          <a href="https://www.google.com/search?q=puppies&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjcn4mJpPXSAhVRxWMKHQbcA7YQ_AUIBigB&biw=1490&bih=847#tbm=isch&q=pandas&*"><h4>Pandas</h4>
-          </a>
+          <div class="col-md-6 project">
+            <picture>
+              <source media="(min-width: 1000px)" srcset="images/emate-1600_large_2x.png, images/emate-800_large_1x.png" />
+              <source media="(min-width: 500px)" srcset="images/emate-1000_medium.png" />
+              <img src="images/emate-500_small.png" class="img-responsive" data-toggle="modal" data-target="#emate" alt="Introduction of Emate web app">
+              <a href="https://github.com/MomokoXu/EE6895FinalProject">
+                <h4>Emate: Friend Recommender</h4>
+              </a>
+            </picture>
+          </div>
         </div>
-        <div class="col-md-6">
-          <img src="./pictures/giraffe.jpg" class="img-responsive" data-toggle="modal" data-target="#giraffe">
-          <a href="https://www.google.com/search?q=puppies&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjcn4mJpPXSAhVRxWMKHQbcA7YQ_AUIBigB&biw=1490&bih=847#tbm=isch&q=baby+giraffe&*"><h4>Baby Giraffes</h4>
-          </a>
-        </div>
-      </div>
+        <div class="row">
+          <div class="col-md-6 project">
+            <picture>
+              <source media="(min-width: 1000px)" srcset="images/movies-1600_large_2x.png, images/movies-800_large_1x.png" />
+              <source media="(min-width: 500px)" srcset="images/movies-1000_medium.png" />
+              <img src="images/movies-500_small.png" class="img-responsive" data-toggle="modal" data-target="#movies" alt="Introduction of Movie Trailers project">
+              <a href="https://github.com/MomokoXu/Project-Movie-Trailer-Website">
+                <h4>Movie Trailers Web App</h4>
+              </a>
+            </picture>
+          </div>
 
+          <div class="col-md-6 project">
+            <picture>
+              <source media="(min-width: 1000px)" srcset="images/myweb-1600_large_2x.png, images/myweb-800_large_1x.png" />
+              <source media="(min-width: 500px)" srcset="images/myweb-1000_medium.png" />
+              <img src="images/myweb-500_small.png" class="img-responsive" data-toggle="modal" data-target="#myweb" alt="Introduction of my personal website">
+              <a href="https://github.com/MomokoXu/momokoxu.github.io">
+                <h4>My Personal Website</h4>
+              </a>
+            </picture>
+          </div>
+        </div>
+    </div>
+
+      <!-- Social Part -->
       <footer>
         <div id="social">
-          <a href="https://www.twitter.com/" class="zocial-twitter col-md-3">Twitter</a>
-          <a href="http://digg.com/" class="zocial-digg col-md-3">Digg</a>
-          <a href="https://www.facebook.com/" class="zocial-facebook col-md-3">Facebook</a>
-          <a href="https://plus.google.com/" class="zocial-googleplus col-md-3">Google+</a>
+          <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2FMomokoXu%2FProject-Build-A-Portfolio&text=Momoko's%20Portfolio" class="zocial-twitter col-md-2">Twitter</a>
+          <a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgithub.com%2FMomokoXu%2FProject-Build-A-Portfolio&title=Momoko's%20Portfolio" class="zocial-linkedin col-md-2">Linkedin</a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgithub.com%2FMomokoXu%2FProject-Build-A-Portfolio" class="zocial-facebook col-md-2">Facebook</a>
+          <a href="https://plus.google.com/share?url=https%3A%2F%2Fgithub.com%2FMomokoXu%2FProject-Build-A-Portfolio" class="zocial-googleplus col-md-2">Google+</a>
+          <a href="http://www.tumblr.com/share?v=3&u=https%3A%2F%2Fgithub.com%2FMomokoXu%2FProject-Build-A-Portfolio&t=Momoko's%20Portfolio" class="zocial-tumblr col-md-2">Tumblr</a>
         </div>
         <div id="viewSource">
           <a href="https://github.com/MomokoXu/Project-Build-A-Portfolio" class="source col-md-12">View source on GitHub</a>
@@ -93,17 +133,45 @@
     </div>
 
     <!-- Modal -->
-    <div class="modal fade" id="projectintro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="byou" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">About thie project</h4>
+                    <h4 class="modal-title" id="myModalLabel">Book For You Recommender System</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="./pictures/facepic.jpg">
-                    <article class="intro">
-                      This is my first project in this class. I learned a lot about HTML and CSS. Since I would like to make my first project to be a little bit interesting, I decide to build a little animal portflio, which has a gallery for four type of cute animals including kittens, puppies, pandas, and baby giraffes. Enjoy this little project!
-                    </article>
+                  <picture>
+                    <source media="(min-width: 1000px)" srcset="images/byou-1600_large_2x.png, images/byou-800_large_1x.png" />
+                    <source media="(min-width: 500px)" srcset="images/byou-1000_medium.png" />
+                    <img src="images/byou-500_small.png" class="img-responsive" alt="Introduction of book for you recommender system project">
+                  </picture>
+                  <p id="window">
+                    BYOU, Book For You book recommender system, is a web application which takes the user's id as input and output recommended books for the user.This book recommender system consists of both front-end and back-end implementations. The core part for the recommender are four recommendation algorithms. Three of them are implemented by Mahout, that is item-based recommendation, user-based recommendation, and single value decomposition (SVD) recommendation. The rest one is imple- mented from scratch, which is a contend-based algorithm using TF-IDF.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="emate" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Emate: Friend Finder</h4>
+                </div>
+                <div class="modal-body">
+                  <picture>
+                    <source media="(min-width: 1000px)" srcset="images/emate-1600_large_2x.png, images/emate-800_large_1x.png" />
+                    <source media="(min-width: 500px)" srcset="images/emate-1000_medium.png" />
+                    <img src="images/emate-500_small.png" class="img-responsive" alt="Introduction of book for you recommender system project">
+                  </picture>
+                  <p id="window">
+                  Emate is an application that enables users to find people who share the most similar thoughts with him/her in real time. Users will be able to enter one or more phrases as he/she likes into the application, and then get feedback from the application which will look into the historical data in the near past hours, score the relevancy and geological closeness of every single tweet, and output to the user with users who have the highest similarities and are located nearest to the user. Then the user would be provided the corresponding username and the actual contents of the tweets, so that he/she can choose to establish connection with the ones as wanted.
+                  </p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -112,15 +180,21 @@
         </div>
     </div>
     <!-- Modal -->
-    <div class="modal fade" id="kitten" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="movies" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Cute Kittens</h4>
+                    <h4 class="modal-title" id="myModalLabel">Movie Trailers Web App</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="./pictures/kitten.jpeg">
-                    This part is about cute kittens. A kitten (also known as a kitty or kitty cat) is a juvenile cat. After being born, kittens are totally dependent on their mother for survival and they do not normally open their eyes until after seven to ten days. After about two weeks, kittens quickly develop and begin to explore the world outside the nest. After a further three to four weeks, they begin to eat solid food and grow adult teeth. Domestic kittens are highly social animals and enjoy human companionship.
+                  <picture>
+                    <source media="(min-width: 1000px)" srcset="images/movies-1600_large_2x.png, images/movies-800_large_1x.png" />
+                    <source media="(min-width: 500px)" srcset="images/movies-1000_medium.png" />
+                    <img src="images/movies-500_small.png" class="img-responsive" alt="Introduction of Movie Trailers Web App">
+                  </picture>
+                  <p id="window">
+                    This mini project aims to provide server-side code to store a list of author's favorite movies with box art imagery and a movie trailer URL so that front-end web page (provided by Udacity Full Stack Nano Degree program) uses this data for visitors to review the movies and trailers.
+                  </p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -129,49 +203,21 @@
         </div>
     </div>
     <!-- Modal -->
-    <div class="modal fade" id="dog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="myweb" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Cute puppies</h4>
+                    <h4 class="modal-title" id="myModalLabel">My Personal Website</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="./pictures/puppy.jpg">
-                   This part is about cute puppies. A puppy is a juvenile dog. Some puppies can weigh 1 &#8211 3lb (0.45 &#8211 1.36kg), while larger ones can weigh up to 15  &#8211 23lb (6.8 &#8211 0.4kg). All healthy puppies grow quickly after birth. A puppy's coat color may change as the puppy grows older, as is commonly seen in breeds such as the Yorkshire Terrier. In vernacular English, puppy refers specifically to dogs, while pup may often be used for other mammals such as seals, giraffes, guinea pigs, or even rats
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal -->
-    <div class="modal fade" id="pandas" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Cute pandas</h4>
-                </div>
-                <div class="modal-body">
-                    <img class="img-responsive" src="./pictures/panda.jpg">
-                    This part is about cute pandas. It is also known as panda bear or simply panda, is a bear native to south central China. It is easily recognized by the large, distinctive black patches around its eyes, over the ears, and across its round body. The name "giant panda" is sometimes used to distinguish it from the unrelated red panda. Though it belongs to the order Carnivora, the giant panda's diet is over 99% bamboo. Giant pandas in the wild will occasionally eat other grasses, wild tubers, or even meat in the form of birds, rodents or carrion. In captivity, they may receive honey, eggs, fish, yams, shrub leaves, oranges, or bananas along with specially prepared food.
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal -->
-    <div class="modal fade" id="giraffe" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Cute Baby Giraffe</h4>
-                </div>
-                <div class="modal-body">
-                    <img class="img-responsive" src="./pictures/giraffe.jpg">
-                    This part is about cute giraffe. The giraffe (Giraffa) is a genus of African even-toed ungulate mammals, the tallest living terrestrial animals and the largest ruminants. The genus consists of eleven or more species including Giraffa camelopardalis, the type species. The giraffe's chief distinguishing characteristics are its extremely long neck and legs, its horn-like ossicones, and its distinctive coat patterns. It is classified under the family Giraffidae, along with its closest extant relative, the okapi.
+                  <picture>
+                    <source media="(min-width: 1000px)" srcset="images/myweb-1600_large_2x.png, images/myweb-800_large_1x.png" />
+                    <source media="(min-width: 500px)" srcset="images/myweb-1000_medium.png" />
+                    <img src="images/myweb-500_small.png" class="img-responsive" alt="Introduction of my personal website">
+                  </picture>
+                  <p id="window">
+                    This personal website initially is a practice for my front-end courses. The main tools and libraries are Bootstrap and Jekyll.The template used is <a href="https://github.com/mmistakes/so-simple-theme">so-simple-theme</a> from Jekyll. I personalized the theme and designed different parts accroding to my own interests which includes About, Blog, Portfolio, and Gallery. Some of them are still under construction and will be completed after I equip with more skills.
+                  </p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
