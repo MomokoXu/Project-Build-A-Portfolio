@@ -15,7 +15,7 @@ This project aims to use different languages including HTML/CSS and Javascript, 
 * Make sure download all files in this project
 * In Terminal:
     1. Make sure you switch to the directory for this project
-    2. Click `project2_my_portfolio.html` in your browser.
+    2. Click `index.html` in your browser.
 ## Author
 [Yingtao Xu](https://github.com/MomokoXu)
 
