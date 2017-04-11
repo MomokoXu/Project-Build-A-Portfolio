@@ -1,0 +1,34 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "prokect for portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MomokoXu/Project-Build-A-Portfolio.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "grunt",
+    "bootstrap",
+    "responsive",
+    "web"
+  ],
+  "author": "Yingtao Xu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MomokoXu/Project-Build-A-Portfolio/issues"
+  },
+  "homepage": "https://github.com/MomokoXu/Project-Build-A-Portfolio#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-sass": "^2.0.0",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}
