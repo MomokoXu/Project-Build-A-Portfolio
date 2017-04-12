@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -16,9 +16,9 @@
   </head>
   <body>
 
-    <div class="container" id="row">
+    <div class="container">
       <!-- Project Title with a logo -->
-      <header>
+      <div class="row">
         <div class="col-md-12 text-left">
           <a href="http://www.momokoxu.com/">
             <img src="pictures/logo.svg" class="logo" alt="circle with a cat face logo">
@@ -27,7 +27,7 @@
         <div class="col-md-12 text-left">
           <h1 class="text-uppercase">&#9728; Momoko's Web Project &#9728;</h1>
         </div>
-      </header>
+      </div>
 
       <!-- Project Introduction -->
       <div class="row">
@@ -52,7 +52,7 @@
 
       <!-- Gallery Part -->
       <main class="gallery">
-        <div class="row col-md-12">
+        <div class="col-md-12">
           <h3>Gallery</h3>
         </div>
 
@@ -106,16 +106,23 @@
     </main>
 
       <!-- Social Part -->
-      <footer class="row">
-        <div id="social">
-          <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2FMomokoXu%2FProject-Build-A-Portfolio&text=Momoko's%20Portfolio" class="zocial-twitter col-md-2" target="_blank">Twitter</a>
-          <a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgithub.com%2FMomokoXu%2FProject-Build-A-Portfolio&title=Momoko's%20Portfolio" class="zocial-linkedin col-md-2" target="_blank">Linkedin</a>
-          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgithub.com%2FMomokoXu%2FProject-Build-A-Portfolio" class="zocial-facebook col-md-2" target="_blank">Facebook</a>
-          <a href="https://plus.google.com/share?url=https%3A%2F%2Fgithub.com%2FMomokoXu%2FProject-Build-A-Portfolio" class="zocial-googleplus col-md-2" target="_blank">Google+</a>
-          <a href="http://www.tumblr.com/share?v=3&u=https%3A%2F%2Fgithub.com%2FMomokoXu%2FProject-Build-A-Portfolio&t=Momoko's%20Portfolio" class="zocial-tumblr col-md-2" target="_blank">Tumblr</a>
+      <footer>
+        <div id="social" class="row">
+          <div class="col-md-3">
+            <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2FMomokoXu%2FProject-Build-A-Portfolio&text=Momoko's%20Portfolio" class="zocial-twitter" target="_blank">Twitter</a>
+          </div>
+          <div class="col-md-3">
+            <a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgithub.com%2FMomokoXu%2FProject-Build-A-Portfolio&title=Momoko's%20Portfolio" class="zocial-linkedin" target="_blank">Linkedin</a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://plus.google.com/share?url=https%3A%2F%2Fgithub.com%2FMomokoXu%2FProject-Build-A-Portfolio" class="zocial-googleplus" target="_blank">Google+</a>
+          </div>
+          <div class="col-md-3">
+            <a href="http://www.tumblr.com/share?v=3&u=https%3A%2F%2Fgithub.com%2FMomokoXu%2FProject- Build-A-Portfolio&t=Momoko's%20Portfolio" class="zocial-tumblr" target="_blank">Tumblr</a>
+          </div>
         </div>
-        <div id="viewSource">
-          <a href="https://github.com/MomokoXu/Project-Build-A-Portfolio" class="source col-md-12">View source on GitHub</a>
+        <div id="viewSource" class="col-md-12">
+          <a href="https://github.com/MomokoXu/Project-Build-A-Portfolio" class="source">View source on GitHub</a>
         </div>
       </footer>
     </div>
