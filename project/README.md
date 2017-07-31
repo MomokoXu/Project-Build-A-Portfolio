@@ -2,6 +2,7 @@
 ![Image of webpage](https://github.com/MomokoXu/Project-Build-A-Portfolio/blob/master/project/websample.png)
 ## Introduction
 [**Click here to open app**](https://buildaportholio.firebaseapp.com/)
+
 This project aims to use different languages including HTML/CSS and Javascript, different libraries like Bootstrap, and other tools like Grunt to implement a responsive webpage. The content of the web is a portfolio of author's selected projects. It supports different devices indluing desktops, mobiles and tablets. Hope you enjoy it!
 
 ## Features
